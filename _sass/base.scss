@@ -1,0 +1,33 @@
+/* =========================================================================== */
+/* Base styles
+/* =========================================================================== */
+html {
+  height: 100%;
+  color: #444;
+  font: 14px $font_serif;
+}
+body {
+  height: 100%;
+  background-color: rgb(162, 221, 227);
+}
+
+
+/* --------------- */
+/* Element styles
+/* --------------- */
+h1 {
+	font:  2rem/2.5rem $font_sans;
+	text-transform: uppercase;
+	margin: 0 0 1.5rem;
+}
+h2 {
+	font:  1.3rem/2rem $font_sans;
+	text-transform: uppercase;
+	margin: 3rem 0 1rem;
+}
+h3 {}
+h4 {}
+p {
+	font: 1rem/1.9rem $font_serif;
+    margin: 0 0 2rem;
+}
